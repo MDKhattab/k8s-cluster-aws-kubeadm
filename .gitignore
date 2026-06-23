@@ -1,0 +1,20 @@
+# Sensitive files — DO NOT COMMIT
+access-secretket
+*.pem
+*.key
+
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfvars
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/crash.log
+**/crash.*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scripts (placeholder values only; actual tokens go in .env or are passed at runtime)
+*.env

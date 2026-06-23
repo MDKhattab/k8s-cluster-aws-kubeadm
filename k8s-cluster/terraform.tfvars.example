@@ -1,0 +1,3 @@
+region   = "us-east-1"
+my_ip    = "YOUR_IP/32"       # replace with your public IP
+key_name = "your-key-pair"   # name of existing AWS key pair
