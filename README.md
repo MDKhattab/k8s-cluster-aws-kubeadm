@@ -18,7 +18,7 @@
 
 ## Architecture
 
-![Kubernetes Cluster Architecture](Copilot_20260624_010758.png)
+![Kubernetes Cluster Architecture](photo_20260624_010758.png)
 
 | Node        | OS              | Instance   | Private IP  | Role          |
 |-------------|-----------------|------------|-------------|---------------|
