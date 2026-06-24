@@ -18,7 +18,7 @@
 
 ## Architecture
 
-![Kubernetes Cluster Architecture](photo_20260624_010758.png)
+![Kubernetes Cluster Architecture](.)
 
 | Node        | OS              | Instance   | Private IP  | Role          |
 |-------------|-----------------|------------|-------------|---------------|
@@ -402,8 +402,9 @@ A bash script automating the full setup is available at [`scripts/setup-k8s.sh`]
 
 ```bash
 # On the master:
-sudo ./scripts/setup-k8s.sh master
+sudo ./scripts/setup-master.sh master
 
 # On each worker (replace <JOIN_CMD> with the output from the master):
-sudo ./scripts/setup-k8s.sh worker "<JOIN_CMD>"
+sudo ./scripts/setup-worker.sh worker "<JOIN_CMD>"
 ```
+![Kubernetes Cluster works](Screenshot%202026-06-24%20035346.png)
